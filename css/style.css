@@ -44,10 +44,10 @@ table {
 
 
 .container{
-	width: 1000px;
+	max-width: 1000px;
 	background: #f4f7f79a;
 	border-radius: 15px;
-	margin: 50px 150px 50px 200px;
+	margin: 0 auto;
 	padding: 10px;
 }
 .body-bg{
@@ -81,6 +81,8 @@ table {
 	background: #5d97aa;
 	font-size: 20px;
 	border: 2px solid #fff;
+	left: 0;
+	top: 50%;  
   }
   
   
@@ -107,7 +109,8 @@ table {
 }
 .img{
 	width: 100%;
-	border-radius: 5px;
+	border-radius: 15px;
+	padding: 10px 0px 10px 0px;
 }
 
 .image-container {
@@ -127,7 +130,5 @@ table {
   text-align: justify;
   font-weight: 300;
   font-size: 20px;
-}
-.conteiner > div{
-	padding: 10px;
+  width: 90%;
 }
